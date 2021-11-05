@@ -1,16 +1,29 @@
-# kkcontrol
+# The Runway Condition Report Calculator
 
-A new Flutter project.
+Havalimanı pist durum raporu oluşturma uygulaması.
 
-## Getting Started
+## Tam Açıklama
+RCR (The Runway Condition Report), gözlemlenen pist yüzeyi koşulundan/koşullarından ve frenleme eyleminin pilot raporundan ilgili prosedürler kullanılarak pist durum kodunun değerlendirilmesine izin veren bir uygulamadır.
 
-This project is a starting point for a Flutter application.
+Pist yüzey koşullarını raporlamak için havalimanı işletmecileri tarafından kullanılacak yöntem, uçakların kalkış ve iniş performansını, özellikle frenleme performansını etkileyen faktörleri açıkça tanımlar.
 
-A few resources to get you started if this is your first Flutter project:
+Raporlamayı oluşturmak için havalimanı işletmecilerinin işini kolaylaştıracak bu ücretsiz uygulamayı kullanabilirsiniz. Raporlama için istenen bilgileri uygulamaya girerek sonucu görebilirsiniz. Ayrıca eski sonuçlar uygulama içerisinde kaydedilir.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Uygulama Özellikleri
+- Eski sonuçları görebilme.
+- Sonucu paylaşma
+- Sonucu kopyalama
+- RCR raporuna uymayan değer girilince uyarı verme
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Kullanılan Teknolojiler
+- Flutter/Dart
+- Hive Database
+
+## Neden Hive Database Kullandım?
+Hive veritabanı, saf dart dili yazılmış olan anahtar - değer tutan hafif bir veritabanıdır. Sqlite veritabanına göre daha hızlı çalışmaktadır. Bu projede ilişkisel bir veritabanı kullanmaya gerek olmadığı için nosql teknolojisine sahip hive veritabanını bu proje için daha uygun gördüm. 
+
+## Uygulama Ekran Görüntüleri
+
+![merge_from_ofoct (1)](https://user-images.githubusercontent.com/14194362/140512038-47cfc792-7919-4ec5-9cc9-37cdd66a04f8.jpg)
+
