@@ -27,3 +27,4 @@ Hive veritabanı, saf dart dili yazılmış olan anahtar - değer tutan hafif bi
 
 ![merge_from_ofoct (1)](https://user-images.githubusercontent.com/14194362/140512038-47cfc792-7919-4ec5-9cc9-37cdd66a04f8.jpg)
 
+Google Play: https://play.google.com/store/apps/details?id=com.rcr.hesaplama
